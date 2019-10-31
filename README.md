@@ -1,4 +1,4 @@
-Nuxt.js Typescript Serverless on Firebase(Cloud Functions) 
+# Nuxt.js Typescript Serverless on Firebase(Cloud Functions) 
 
 ## Pre-install
 ```
