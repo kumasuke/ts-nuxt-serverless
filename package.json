@@ -1,0 +1,29 @@
+{
+  "name": "ts-nuxt-serverless",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "build": "yarn clean && yarn build:nuxt && yarn build:copy",
+    "build:nuxt": "nuxt-ts build",
+    "build:copy": "make build-copy",
+    "clean": "rm -rf .nuxt dist",
+    "serve": "yarn build && firebase serve",
+    "deploy": "yarn build && firebase deploy"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.2.2",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.6.1",
+    "firebase-functions": "^3.3.0",
+    "nuxt": "^2.10.2",
+    "nuxt-property-decorator": "^2.5.0",
+    "vuex-class": "^0.3.2"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.3.2",
+    "ress": "^2.0.1"
+  }
+}
