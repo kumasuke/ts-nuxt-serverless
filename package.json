@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.2.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "firebase-admin": "^8.6.1",
     "firebase-functions": "^3.3.0",
     "nuxt": "^2.10.2",
